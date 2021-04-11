@@ -30,7 +30,7 @@ body{
 .form-container form{
     padding: 30px;
 }
-form input{
+form .fields input{
     margin: 15px 0;
     display: block;
     width: 100%;
@@ -42,7 +42,7 @@ form input{
     transition: all .2s;
     outline: none;
 }
-form input:focus{
+form .fields input:focus{
     border: 2px solid rgb(5, 44, 73);
 }
 form .socials{
@@ -86,4 +86,10 @@ form .btn-submit{
     outline: none;
     background-color: rgb(5, 44, 73);
     color: white;
+}
+form .links{
+    margin-top: 20px;
+}
+.links .link a{
+    color: rgb(5, 44, 73);
 }
